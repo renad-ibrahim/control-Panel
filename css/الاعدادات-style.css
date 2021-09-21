@@ -1,0 +1,278 @@
+.row > div{
+    float: right;
+}
+ /* ************* start  nav ************* */
+nav .logo{
+    margin-bottom: -24px;
+}
+nav .logo p:first-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 20px 0px -19px 70px;
+}
+nav .logo p:last-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 0px 0px -14px 39px; 
+}
+nav .logo img{
+    width: 100px;
+    display: inline-block;
+    margin: -65px 0px 0px 162px;
+}
+ul{
+   margin-top: 24px; 
+}
+nav ul  {
+    direction: rtl;
+}
+nav ul li{
+    padding-top: 12px;
+    margin-top: 4px;
+}
+nav ul li:nth-of-type(11){
+    background-color: #2cc3b53d;
+    border-radius: 5px;
+    width: 96%;
+    padding-right: 2px;
+}
+nav ul li:first-of-type img , li:nth-of-type(2) img , li:nth-of-type(4) img{
+    margin-top: 4px;
+}
+nav ul li a:hover{
+    text-decoration: none; 
+}
+nav ul li:hover{
+    background-color: #2cc3b53b;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 235px;
+}
+ nav ul li a img{
+    width: 35px;
+    margin-top: -8px;
+    margin-left: 15px;
+    float: right;
+}
+nav ul li a span{
+     font-size: 30px;
+    color: #525252;
+}
+/*  ********* left side ************* */
+/* *********** shape ********* */
+div p{
+   font-size: 25px;
+    color: #afafaf; 
+}
+.shape{
+    margin-bottom: 10px;
+}
+.shape div:first-of-type{
+    background-color: #d21f1f;;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: -31px 0px 0px 115px;
+}
+.shape div:nth-of-type(2){
+    background-color: #0f8e8e;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 130px;
+}
+.shape div:last-of-type{
+   background-color: #afafaf;
+    width: 160px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 176px;  
+}
+/* ******************** select ********************** */
+.project-plan-status{
+    position: relative;
+    background-color: #afafaf;
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    margin-top: 20px;    
+}
+.project-plan-status img{
+    position: absolute;
+    width: 24px;
+    right: 10px;
+    top: 4px;  
+}
+.project-plan-status span{
+    position: absolute;
+    font-size: 25px;
+    color: #525252;
+    right: 40px;
+}
+/* *********** content ********** */
+.content{
+    margin-top: 65px;
+}
+.content .col-md-3 {
+    float: right;
+    text-align: center;
+}
+.content .col-md-3 a:hover{
+    text-decoration: none;
+}
+.content .col-md-3 a i{
+    color: #525252;
+    font-size: 70px;
+    padding-top: 50px;
+}
+.content .col-md-3 a p{
+    font-size: 25px;
+    color: #525252;
+}
+
+@media (min-width:1200px) and (max-width:1535px){
+    nav .logo img {
+      margin: -65px 0px 0px 137px;
+  }
+    nav .logo p:last-of-type {
+       margin: 0px 0px -14px 16px;
+   }
+    nav .logo p:first-of-type {
+      margin: 20px 0px -19px 49px;
+  }
+}
+@media(max-width:1199px){
+    .list-unstyled{
+        padding-right: 0px;
+    }
+    nav .logo img {
+      margin: -65px 0px 0px 126px;
+    }
+    nav .logo p:last-of-type {
+       margin: 0px 0px -14px 5px;
+   }
+    nav .logo p:first-of-type {
+      margin: 20px 0px -19px 39px;
+  }
+}
+*/
+@media(max-width:999px) {
+    .list-unstyled{
+        padding-right: 5px;
+    }
+    nav .logo p:last-of-type {
+      margin: 0px 0px -14px -2px;
+   }
+    nav .logo p:first-of-type {
+      margin: 20px 0px -19px 25px;
+   }
+    nav .logo img {
+    margin: -65px 0px 0px 123px;
+}
+}
+@media(max-width:991px){
+    .list-unstyled {
+      padding-right: 0px;
+      margin-right: -50px;
+  }
+}
+@media (min-width:750px) and (max-width:992px){
+    nav ul li {
+      width: 140%;
+    }
+    nav .logo img {
+        margin: -55px 0px 0px 88px;
+        width: 80px;
+    }
+    nav .logo p:last-of-type {
+       margin: 14px 0px -14px -13px;
+       font-size: 25px;
+    }
+    nav .logo p:first-of-type {
+        font-size: 25px;
+        margin: 20px 0px -19px 16px;
+     }
+    .list-unstyled {
+      padding-right: 0px;
+      margin-right:  0px;
+  }
+}
+@media(min-width:500px) and (max-width:749px){
+    .col-md-4 {
+        width: 100%;
+    }
+    .content .col-md-4 p:first-of-type span:first-of-type {
+        float: right;
+        margin-right: 9px;
+        margin-top: -3px;
+    }
+    .content .col-md-4 p:nth-of-type(3) {
+       margin-right: -149px;
+       margin-top: 25px;
+    }
+    
+    .content .col-md-4 p:nth-of-type(2) {
+       float: right;
+       margin-right: -8px;
+    }
+    .content .col-md-4 p:last-of-type {
+    margin-top: 5px;
+    }
+    .last-part {
+       width: 95%;
+       right: 0px;
+    }
+    
+    
+    .line {
+    width: 30px;
+    height: 3px;
+    background: #525252;
+    margin: 5px;
+  }
+  nav {
+    position: relative;
+  }
+   
+  .button {
+    position: absolute;
+    cursor: pointer;
+    top: 25px;
+    left: 269px;
+  }
+
+  .nav-links {
+    position:absolute;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 100% -40%);
+      top: 82px;
+  }
+  .nav-links.open {
+    -webkit-clip-path: circle(1000px at 80% -10%);
+  }
+  
+    .row {
+      margin-right: 0px;
+    }
+    .row >div {
+       float: left;
+    }
+    .col-xs-3 {
+        width: 0%;
+   }
+    .col-xs-9 {
+       width: 100%;
+}
+    nav .logo img {
+      margin: -65px 0px 0px 173px;
+   }
+    nav .logo p:last-of-type {
+       margin: 0px 0px -14px 52px;
+    }
+    nav .logo p:first-of-type {
+       margin: 20px 0px -19px 87px;
+    } 
+}

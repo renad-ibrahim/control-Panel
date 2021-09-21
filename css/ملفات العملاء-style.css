@@ -1,0 +1,250 @@
+.container{
+    width: 1253px;
+}
+nav .logo{
+    margin-bottom: -24px;
+}
+nav .logo p:first-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 20px 0px -19px 70px;
+}
+nav .logo p:last-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 0px 0px -14px 39px; 
+}
+nav .logo img{
+    width: 100px;
+    display: inline-block;
+    margin: -65px 0px 0px 162px;
+}
+ul{
+   margin-top: 24px; 
+}
+nav ul  {
+    direction: rtl;
+}
+nav ul li{
+    padding-top: 12px;
+    margin-top: 4px;
+}
+nav ul li:nth-of-type(9){
+    background-color: #2cc3b53d;
+    border-radius: 5px;
+}
+nav ul li:first-of-type img , li:nth-of-type(2) img , li:nth-of-type(4) img{
+    margin-top: 4px;
+}
+nav ul li a:hover{
+    text-decoration: none; 
+}
+nav ul li:hover{
+    background-color: #2cc3b53b;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 235px;
+}
+ nav ul li a img{
+    width: 35px;
+    margin-top: -8px;
+    margin-left: 15px;
+    float: right;
+}
+nav ul li a span{
+     font-size: 30px;
+    color: #525252;
+}
+/*  ********* left side ************* */
+.col-xs-9{
+    margin-top: -748px;
+}
+/* ***** shape ****** */
+div p{
+   font-size: 25px;
+    color: #afafaf; 
+}
+.shape{
+    margin-bottom: 10px;
+}
+.shape div:first-of-type{
+    background-color: #d21f1f;;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: -31px 0px 0px 115px;
+}
+.shape div:nth-of-type(2){
+    background-color: #0f8e8e;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 130px;
+}
+.shape div:last-of-type{
+   background-color: #afafaf;
+    width: 160px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 176px;  
+}
+/* ******************** select ********************** */
+.project-plan-status{
+    position: relative;
+    margin-top: 18px;
+}
+.project-plan-status img{
+    width: 21px;
+    float: right;
+    position: absolute;
+    margin-left: 888px;
+    margin-top: 13px;
+}
+.project-plan-status span:first-of-type{
+    position: absolute;
+    font-size: 25px;
+    color: #525252;
+    margin-top: 6px;
+    margin-left: 770px;
+}
+.project-plan-status span:nth-of-type(2) a{
+    font-size: 25px;
+    color: #525252;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: 6px;
+}
+.project-plan-status span:nth-of-type(2) a:hover{
+    text-decoration: none;
+}
+.project-plan-status span:nth-of-type(2) a i{
+    font-size: 18px;
+}
+.project-plan-status span:last-of-type{
+    font-size: 25px;
+    color: #525252;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.project-plan-status select{
+    width: 923px;
+    direction: rtl;
+    height: 35px;
+    background-color: #d4d3d3;
+    border-radius: 5px;
+    padding-right: 35px;
+    font-size: 22px;
+    color: #525252;
+    border: none;
+    margin: 5px 0px -20px 0px;
+}
+/* *************** content ************* */
+.col-md-4{
+    box-shadow: 1px 1px 1px 1px #ddd;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: 15px;
+    width: 31%;
+}
+.content{
+    margin-top: 20px;
+}
+.content .col-md-4 p:first-of-type{
+   border-bottom: 1px solid #afafaf;
+    margin: -2px -15px 3px -15px;
+    font-size: 25px;
+}
+.content .col-md-4 p:first-of-type span img{
+    width: 15px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 7px;
+    
+}
+.content .col-md-4 p:first-of-type span:first-of-type{
+    margin-left: 116px;
+    font-weight: 700;
+    color: #525252;
+    font-size: 18px;
+}
+.content .col-md-4 p:first-of-type {
+    color: #525252;
+    font-size: 15px;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+.content .col-md-4 p:first-of-type span:nth-of-type(3) i ,span:nth-of-type(4) i{
+    margin-right: 10px;
+}
+.content .col-md-4 p:first-of-type span:last-of-type{
+    margin-left: 6px;
+    font-weight: 700;
+    color: #525252;
+    font-size: 15px;
+    margin-right: 8px;
+}
+.content .col-md-4 p:nth-of-type(2){
+    float: right;
+    margin-right: -8px;
+}
+.content .col-md-4 p:nth-of-type(2) span , p:nth-of-type(3) span , p:nth-of-type(4) span{
+    font-size: 16px;
+    color: #525252;
+    margin-right: 5px;
+}
+.content .col-md-4 p:nth-of-type(2) i , p:nth-of-type(3) i , p:nth-of-type(4) i{
+    font-size: 15px;
+    color: #525252;
+    float: right;
+    margin-top: 2px;
+}
+
+.content .col-md-4 p:nth-of-type(3){
+    float: right;
+    margin: 27px -156px 0px 0px;
+}
+
+.content .col-md-4 p:nth-of-type(4){
+    
+}
+.content .col-md-4 p:nth-of-type(5){
+    margin-top: 4px;
+    margin-left: 14px;
+}
+.content .col-md-4 p:nth-of-type(5) span , p:last-of-type span{
+    font-size: 16px;
+    color: #525252;
+}
+.content .col-md-4 p:nth-of-type(5) i ,p:last-of-type i{
+    font-size: 15px;
+    color: #525252;
+    float: right;
+    margin: 4px -6px 0px 0px; 
+    
+}
+.content .col-md-4 p:last-of-type{
+  margin-top: 20px;
+    float: right;
+}
+
+/* ****************** last part ******************** */
+.last-part {
+   width: 100%;
+    height: 30px;
+    background-color: #afafaf;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: -2px;
+    margin-top: 22px;
+}
+.last-part a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+}
+.last-part a span i{
+    color: white;
+    font-size: 20px;
+}

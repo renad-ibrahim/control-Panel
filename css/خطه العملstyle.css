@@ -1,0 +1,221 @@
+.row >div {
+    float: right;
+}
+nav .logo{
+    margin-bottom: -24px;
+}
+nav .logo p:first-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 20px 0px -19px 70px;
+}
+nav .logo p:last-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 0px 0px -14px 39px; 
+}
+nav .logo img{
+    width: 100px;
+    display: inline-block;
+    margin: -65px 0px 0px 162px;
+}
+ul{
+   margin-top: 24px; 
+}
+nav ul  {
+    direction: rtl;
+}
+nav ul li{
+    padding-top: 12px;
+    margin-top: 4px;
+}
+nav ul li:nth-of-type(3){
+    background-color: #2cc3b53d;
+    border-radius: 5px;
+}
+nav ul li:first-of-type img , li:nth-of-type(2) img , li:nth-of-type(4) img{
+    margin-top: 4px;
+}
+nav ul li a:hover{
+    text-decoration: none; 
+}
+nav ul li:hover{
+    background-color: #2cc3b53b;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 235px;
+}
+ nav ul li a img{
+    width: 35px;
+    margin-top: -8px;
+    margin-left: 15px;
+    float: right;
+}
+nav ul li a span{
+     font-size: 30px;
+    color: #525252;
+}
+/*  ********* left side ************* */
+/* ***** shape ****** */
+div p{
+   font-size: 25px;
+    color: #afafaf; 
+}
+.shape{
+    margin-bottom: 10px;
+}
+.shape div:first-of-type{
+    background-color: #d21f1f;;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 115px;
+    margin-top: -31px;
+}
+.shape div:nth-of-type(2){
+    background-color: #0f8e8e;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-top: -10px;
+}
+.shape div:last-of-type{
+   background-color: #afafaf;
+    width: 160px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 176px;
+    margin-top: -10px;
+}
+/* ****** select ****** */
+.project-plan-status{
+    position: relative;
+}
+.project-plan-status img{
+    width: 21px;
+    float: right;
+    position: absolute;
+   right: 10px;
+    top: 16px;
+}
+.project-plan-status span:first-of-type{
+    position: absolute;
+    font-size: 25px;
+    color: #525252;
+    right: 38px;
+    top: 13px;
+}
+.project-plan-status span:last-of-type{
+    font-size: 25px;
+    color: #525252;
+    position: absolute;
+    left: 12px;
+    top: 13px;
+}
+.project-plan-status select{
+    width: 100%;
+    direction: rtl;
+    height: 35px;
+    background-color: #d4d3d3;
+    border-radius: 5px;
+    padding-right: 35px;
+    font-size: 22px;
+    color: #525252;
+    border: none;
+    margin-left: -6px;
+    margin-bottom: -15px;
+    margin-top: 12px;
+}
+/* ********* content ********** */
+.col-md-1{
+    box-shadow: 1px 1px 1px 1px #ddd;
+    border-radius: 5px;
+    margin-top: 15px;
+    float: right;
+    width: 120px;
+
+}
+.col-md-1:first-of-type , .col-md-1:nth-of-type(2){
+    box-shadow: 0px 0px 0px 0px ;
+}
+.days{
+    margin-top: 58px;
+    margin-right: -22px;
+}
+.days p{
+    display: inline-block;
+    float: right;
+    margin-right: 66px;
+    color: #525252;
+}
+.content{
+    margin-top: 35px;
+}
+
+.content p{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -10px;
+    margin-bottom: -5px;
+    color: #f1f1f1;
+}
+.content p:nth-of-type(2){
+    color: #a09a9a;
+    font-size: 11px;
+    float: right;
+    margin-top: -33px;
+}
+.content p:nth-of-type(3){
+    color: #a09a9a;
+    font-size: 11px;
+    float: right;
+    margin-top: -18px;
+}
+.content span{
+    font-size: 15px;
+    color: #f1f1f1;
+    margin-left: -8px;
+}
+@media (max-width:1199px){
+    .days p {
+    margin-right: 47px;
+
+    }
+    .col-md-1 {
+    width: 95px;
+    margin-left: 4px;
+}
+    .content p:nth-of-type(2)  , .content p:nth-of-type(3) {
+        margin-right: -12px;
+    }
+    .content p{
+        margin-left: -15px;
+    }
+    .content span{
+        margin-left: -13px;
+    }
+}
+@media (max-width:991px){
+    .col-md-1 {
+      width: 72px;
+      margin-left: 3px;
+    }
+    .days p {
+      margin-right: 23px;
+   }
+    .content p:nth-of-type(2), .content p:nth-of-type(3) {
+       margin-right: -14px;
+   }
+}
+@media (max-width:991px) and (min-width:731px){
+    .col-md-1:nth-of-type(3) {
+      margin-right: -78px;
+    }
+
+}
+@media (max-width:732px) and (min-width:694px){
+    .days p {
+      margin-right: 19px;
+   }
+}

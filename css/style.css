@@ -1,0 +1,125 @@
+body{
+    direction: rtl;
+}
+.login-box{
+    box-shadow: 3px 3px 3px 3px #ddd;
+    border-radius: 6%;
+    max-width: 500px;
+        margin: 150px auto;
+}
+.login-box .login-header{
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+}
+.login-box .login-header .image{
+    float: right;
+    width: 100px;
+    height: 80px;
+}
+.login-box .login-header img{
+    width: 100px;
+    height: 80px;
+}
+.login-box .login-header div:last-of-type{
+    float: right;
+    text-align: center;
+    width: 60px; 
+
+}
+
+.login-box .login-header p:first-of-type{
+     font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-right: 24px;
+}
+.login-box .login-header p:last-of-type{
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: -9px;
+    position: absolute;
+}
+.login-box form {
+    width: 90%;
+    margin: auto;
+}
+.login-box form .form-group{
+    position: relative;
+}
+.login-box > p:first-of-type{
+    font-weight: bold;
+    color: darkgray;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;  
+}
+.login-box img{
+    width: 104px;
+    height: 107px;
+    display: inline;
+}
+.login-box p:nth-of-type(2){
+
+}
+.login-box p:nth-of-type(3){
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.login-box form input{
+    position: relative;
+    margin-top: 10px;
+}
+.login-box form span{
+   color: lightgrey;
+    font-size: 20px;
+    position: absolute;
+    right: 8px;
+    top: 7px; 
+}
+.login-box button{
+    margin-top: 10px;
+    width: 400px;
+    margin-left: -27px;
+    background-color: #0f8e8e;
+}
+.login-box p:last-of-type{
+        font-size: 20px;
+    font-weight: bold;
+    padding-left: 53px;
+    text-align: left;
+    margin-left: -27px;
+}
+.login-box p:last-of-type a{
+    text-decoration: none;
+    color: gray;
+}
+.login-box .shape{
+    overflow: hidden;
+    padding:0px 0px 10px 24px;
+}
+.login-box .shape div:first-of-type{
+    width: 10px;
+    height: 7px;
+    background-color: #d21f1f;
+    border-radius: 50%;
+    float: left;
+}
+.login-box .shape div:nth-of-type(2){
+   width: 40px;
+    height: 7px;
+    background-color:#0f8e8e;
+    border-radius: 35px;
+    margin-left: 3px;
+    float: left;
+}
+.login-box .shape div:nth-of-type(3){
+    width: calc(100% - 69px);
+    height: 7px;
+    background-color: lightgrey;
+    margin-right: 13px;
+    border-radius: 5px;
+}
+

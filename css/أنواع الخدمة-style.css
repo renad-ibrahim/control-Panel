@@ -1,0 +1,207 @@
+.row >div{
+    float: right;
+}
+/* *************** start nav *************** */
+nav .logo{
+    margin-bottom: -24px;
+}
+nav .logo p:first-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 20px 0px -19px 70px;
+}
+nav .logo p:last-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 0px 0px -14px 39px; 
+}
+nav .logo img{
+    width: 100px;
+    display: inline-block;
+    margin: -65px 0px 0px 162px;
+}
+ul{
+   margin-top: 24px; 
+}
+nav ul  {
+    direction: rtl;
+}
+nav ul li{
+    padding-top: 12px;
+    margin-top: 4px;
+}
+nav ul li:nth-of-type(8){
+    background-color: #2cc3b53d;
+    border-radius: 5px;
+}
+nav ul li:first-of-type img , li:nth-of-type(2) img , li:nth-of-type(4) img{
+    margin-top: 4px;
+}
+nav ul li a:hover{
+    text-decoration: none; 
+}
+nav ul li:hover{
+    background-color: #2cc3b53b;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 235px;
+}
+ nav ul li a img{
+    width: 35px;
+    margin-left: 15px;
+    float: right;
+}
+nav ul li a span{
+     font-size: 30px;
+    color: #525252;
+}
+/* ******** shape ******** */
+div p{
+   font-size: 25px;
+    color: #afafaf; 
+}
+.shape{
+    margin-bottom: 10px;
+}
+.shape div:first-of-type{
+    background-color: #d21f1f;;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: -31px 0px 0px 115px;
+}
+.shape div:nth-of-type(2){
+    background-color: #0f8e8e;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 130px;
+}
+.shape div:last-of-type{
+   background-color: #afafaf;
+    width: 160px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 176px;  
+}
+/* ******************** select ********************** */
+.project-plan-status{
+    position: relative;
+    margin-top: 18px;
+}
+.project-plan-status img{
+    width: 21px;
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+.project-plan-status span:first-of-type{
+    position: absolute;
+    font-size: 25px;
+    color: #525252;
+    top: 6px;
+    right: 40px;
+}
+.project-plan-status span:nth-of-type(2) a{
+    font-size: 25px;
+    color: #525252;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 6px;
+}
+.project-plan-status span:nth-of-type(2) a:hover{
+    text-decoration: none;
+}
+.project-plan-status span:nth-of-type(2) a i{
+    font-size: 18px;
+}
+.project-plan-status span:last-of-type{
+    font-size: 25px;
+    color: #525252;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.project-plan-status select{
+    width: 100%;
+    direction: rtl;
+    height: 35px;
+    background-color: #d4d3d3;
+    border-radius: 5px;
+    padding-right: 35px;
+    font-size: 22px;
+    color: #525252;
+    border: none;
+    margin: 5px 0px -40px 0px;
+}
+/* ********* content *********** */
+.col-md-4{
+    box-shadow: 1px 1px 1px 1px #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 13px;
+    width: 95%;
+}
+.content{
+    margin-top: 25px;
+}
+
+.content .header p:first-of-type{
+    font-size: 21px;
+    color: #525252;
+    float: right;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.content .header p:nth-of-type(2){
+    font-size: 20px;
+    color: #525252;
+    padding-left: 113px;
+    padding-top: 17px;
+}
+.content  .col-md-4 p:first-of-type{
+    font-size: 15px;
+    color: #525252;
+    float: right;
+    margin-top: 2px;
+}
+.content .col-md-4 p:nth-of-type(2){
+    font-size: 15px;
+    color: #525252;
+    margin-left: 85px;
+    margin-bottom: -21px;
+    margin-top: 6px;
+}
+.content .col-md-4 span{
+    font-size: 15px;
+    color: #525252;
+    padding-left: 5px;
+}
+/* ****************** last part ******************** */
+.last-part {
+   width: 99%;
+    height: 30px;
+    background-color: #afafaf;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: -2px;
+    margin-top: 22px;
+}
+.last-part a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+}
+.last-part a span i{
+    color: white;
+    font-size: 20px;
+}
+@media(min-width:500px) and (max-width:1200px){
+
+    .content .header p:first-of-type {
+       padding-right: 27px;
+    }
+
+}

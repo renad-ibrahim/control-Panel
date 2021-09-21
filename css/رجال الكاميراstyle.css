@@ -1,0 +1,296 @@
+.row > div{
+    float: right;
+}
+nav .logo{
+    margin-bottom: -24px;
+}
+nav .logo p:first-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 20px 0px -19px 70px;
+}
+nav .logo p:last-of-type{
+    font-size: 30px;
+    color: #525252;
+    margin: 0px 0px -14px 39px; 
+}
+nav .logo img{
+    width: 100px;
+    display: inline-block;
+    margin: -65px 0px 0px 162px;
+}
+ul{
+   margin-top: 24px; 
+}
+nav ul  {
+    direction: rtl;
+}
+nav ul li{
+    padding-top: 12px;
+    margin-top: 4px;
+}
+nav ul li:nth-of-type(5){
+    background-color: #2cc3b53d;
+    border-radius: 5px;
+}
+nav ul li:first-of-type img , li:nth-of-type(2) img , li:nth-of-type(4) img{
+    margin-top: 4px;
+}
+nav ul li a:hover{
+    text-decoration: none; 
+}
+nav ul li:hover{
+    background-color: #2cc3b53b;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 235px;
+}
+ nav ul li a img{
+    width: 35px;
+    margin-top: -8px;
+    margin-left: 15px;
+    float: right;
+}
+nav ul li a span{
+     font-size: 30px;
+    color: #525252;
+}
+
+
+/*  ********* left side (shape) ************* */
+/* ***** shape ****** */
+div p{
+   font-size: 25px;
+    color: #afafaf; 
+}
+.shape{
+    margin-bottom: 10px;
+}
+.shape div:first-of-type{
+    background-color: #d21f1f;;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: -31px 0px 0px 115px;
+}
+.shape div:nth-of-type(2){
+    background-color: #0f8e8e;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 130px;
+}
+.shape div:last-of-type{
+   background-color: #afafaf;
+    width: 160px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 176px;  
+}
+/* ******************** select ********************** */
+.project-plan-status{
+    position: relative;
+    margin-top: 18px;
+}
+.project-plan-status img{
+    width: 21px;
+    float: right;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    
+}
+.project-plan-status span:first-of-type{
+    position: absolute;
+    font-size: 25px;
+    color: #525252;
+    right: 35px;
+    top: 6px;
+}
+.project-plan-status span:nth-of-type(2) a{
+    font-size: 25px;
+    color: #525252;
+    position: absolute;
+    left: 70px;
+    top: 6px;
+
+}
+.project-plan-status span:nth-of-type(2) a:hover{
+    text-decoration: none;
+}
+.project-plan-status span:nth-of-type(2) a i{
+    font-size: 18px;
+}
+.project-plan-status span:last-of-type{
+    font-size: 25px;
+    color: #525252;
+    position: absolute;
+    left: 17px;
+    top: 6px;
+
+}
+.project-plan-status select{
+    width: 100%;
+    direction: rtl;
+    height: 35px;
+    background-color: #d4d3d3;
+    border-radius: 5px;
+    padding-right: 35px;
+    font-size: 22px;
+    color: #525252;
+    border: none;
+    margin: 5px 0px -40px 0px;
+}
+
+/* *************** content ************* */
+.col-md-4{
+    box-shadow: 1px 1px 1px 1px #ddd;
+    border-radius: 5px;
+    margin-top: 23px;
+    margin-left: 13px;
+    width: 31%;
+}
+.content{
+    margin-top: 37px;
+}
+.content .col-md-4 p:first-of-type{
+   border-bottom: 1px solid #afafaf;
+    margin: -7px -15px 3px -15px;
+    font-size: 25px;
+}
+
+.content .col-md-4 p:first-of-type span:first-of-type{
+    font-weight: 700;
+    color: #525252;
+    font-size: 18px;
+    margin-left: 80px;
+}
+.content .col-md-4 p:first-of-type span:nth-of-type(4){
+    margin-left: 23px;
+}
+.content .col-md-4 p:first-of-type span:nth-of-type(2) , span:nth-of-type(3) , span:nth-of-type(4) , .span1{
+    color: #525252;
+    font-size: 15px;
+}
+.content .col-md-4 p span:last-of-type{
+    margin-left: 6px;
+     font-weight: 700;
+    color: #525252;
+    font-size: 15px;
+}
+.content .col-md-4 p:nth-of-type(2) i{
+    font-size: 15px;
+    color: #525252;
+    float: right;
+    margin: 3px -7px 0px 5px;
+}
+
+.content .col-md-4 p:nth-of-type(2) , p:nth-of-type(3) , p:nth-of-type(4){
+    float: right;
+}
+.content .col-md-4 p:nth-of-type(4){
+    margin-top: 25px;
+    margin-right: -134px;
+}
+.content .col-md-4 p:nth-of-type(3) i , p:nth-of-type(4) i , p:nth-of-type(5) i{
+    font-size: 15px;
+    color: #525252;
+    float: right;
+    margin-right: -7px;
+    margin-left: 5px;
+}
+.content .col-md-4 p:nth-of-type(5) {
+    float: left;
+    margin-top: 26px;
+    margin-left: -17px;
+}
+
+/* ****************** last part ******************** */
+.last-part {
+   width: 99%;
+    height: 30px;
+    background-color: #afafaf;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: -2px;
+    margin-top: 22px;
+}
+.last-part a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+}
+.last-part a span i{
+    color: white;
+    font-size: 20px;
+}
+@media(min-width:500px) and (max-width:800px){
+    .col-md-4 {
+       width: 90%;
+        margin-left: 21px;
+   }
+    .content .col-md-4 p:first-of-type span:first-of-type {
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+    .content .col-md-4 p:nth-of-type(3){
+        margin-top: 25px;
+    margin-right: -153px;
+    }
+    .content .col-md-4 p:nth-of-type(4) {
+    margin-top: 48px;
+    margin-right: -153px;
+}
+    .last-part {
+       width: 96%;
+       margin-top: 10px;
+       margin-left: 5px;
+   }
+}
+
+
+@media(min-width:801px){
+    .content .col-md-4 p:first-of-type span:nth-of-type(4) {
+        margin-left: 0px;
+    }
+    .content .col-md-4 p:first-of-type span:first-of-type {
+        margin-left: 9px;
+    }
+    .content .col-md-4 p span:last-of-type {
+        font-size: 13px;
+    }
+    .content .col-md-4 p:nth-of-type(4) {
+        margin-top: 28px;
+        margin-right: -126px;
+    }
+    .content .col-md-4 p:nth-of-type(5) {
+       margin-top: 18px;
+    margin-left: 45px;
+   }
+    .last-part {
+       width: 104%;
+       margin-top: 10px;
+   }
+}
+@media(min-width:992px){
+    .content .col-md-4 p:first-of-type span:first-of-type {
+        margin-left: 64px;
+   }
+    .content .col-md-4 p:nth-of-type(5) {
+        margin-left: 96px;
+   }
+}
+@media(min-width:1200px){
+    .content .col-md-4 p:first-of-type span:first-of-type {
+       margin-left: 110px;
+    }
+    .content .col-md-4 p:nth-of-type(5) {
+       margin-top: 5px;
+       float: left;
+       margin-left: -10px;
+   }
+}
+
+
